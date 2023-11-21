@@ -8,3 +8,282 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+
+body{
+    background-color: #540B51;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+
+
+#nav-items{
+    display:none;
+}
+
+
+/* break point at 768px width */
+@media (min-width: 768px){
+    #nav-items{
+        
+    }
+}
+
+/* break point at 1024 width */
+@media (min-width: 1024px){
+    
+}
+
+/* break point at 1440 width */
+@media (min-width: 1440px){
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100 vw;
+    margin: 30px;
+}
+
+nav div{
+    width: 100 vw;
+}
+
+.google-img{
+    width: 100 vw;
+}
+
+#slack-img {
+    width: 150px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font: "Fira Sans", sans-serif;
+    
+}
+
+header span{
+    color: #ECB12F;
+    
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.header-button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#button1{
+    border-radius: 10px;
+    color: #540B51;
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+#button2{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #4285F4;
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+    gap: 50px;
+}
+
+#button2 img{
+    background-color: white;
+    border-radius: 10%;
+    width: 40px;
+    height: 40px
+}
+
+#button2 span{
+    color: white;
+}
+
+.image-header{
+    width: 100vw;
+}
+
+#nasa{
+    width:75px;
+}
+
+#airbnb{
+    width:100px;
+}
+
+#spotify{
+    width:150px;
+}
+
+#ny{
+width:200px;
+}
+
+#target{
+    width:50px;
+    }
+ 
+#uber{
+  width:100px;
+     }
+
+main section div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100vw;
+    flex-wrap: wrap;
+     }
+  
+ .box{
+    background: #F3EAE2;
+   
+    width: 100vw;
+
+ }    
+ 
+
+ .tittle{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+ }
+
+
+ .team{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+ }
+ .team h3{
+    color: #540B51;
+    text-align: center;
+    font-size: 2rem;
+ }
+
+ #team-child{
+    text-align: center;
+ }
+
+ #percentage li{
+    list-style: none;
+    text-align: center;
+ }
+
+ #percentage li p span{
+    color: #540B51;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+ }
+
+ #welcome{
+    background-color: #540B51;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+ }
+
+ #welcome h3{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+ }
+
+ #welcome button{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#button3{
+    border-radius: 10px;
+    color: #540B51;
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+#button4{
+    color: white;
+    background-color: #540B51;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border-color: white;
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+}
+footer{
+    background-color: white;
+    width: 100vw;
+}
+footer ul{
+list-style: none;
+
+}
+
+.footer-list1{
+   
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.footer-list2{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100vw;
+}
+#region{
+    background-image: url('..\images\icon-region.png');
+    
+}
+
+
+hr{
+    width: 100vw;
+}
+
+small {
+    color: #454245;
+    text-align: center;
+    width: 100vw;
+}
